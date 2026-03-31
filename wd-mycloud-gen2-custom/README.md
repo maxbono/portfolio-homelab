@@ -13,9 +13,9 @@ Transformer un NAS WD MyCloud Gen2 (hardware ARM limité) en vrai serveur Linux 
 ### Étapes réalisées
 1. Clonage du repository et installation des dépendances sur une machine Ubuntu.
 2. Exécution du script `./build.sh` pour compiler le kernel et générer le rootfs Debian 12.
-<img width="1286" height="846" alt="wdmcscrpt1" src="https://github.com/user-attachments/assets/1311dfc8-936f-41e4-8d40-6d3cb10e4781" />
+<img width="1286" height="846" alt="wdmcscrpt1" src="https://github.com/user-attachments/assets/b1860cc9-22fa-476b-90d5-5e5d78652bd5" />
+<img width="1286" height="845" alt="wdmcscript4" src="https://github.com/user-attachments/assets/8d8e0998-c220-4fb4-9902-6458a9d30e8f" />
 
-<img width="1286" height="845" alt="wdmcscript4" src="https://github.com/user-attachments/assets/cf0855c7-5243-4e13-b584-10628f6fb862" />
 
    
 3. Création d’un uImage + uRamdisk.
@@ -34,7 +34,8 @@ J’ai repartitionné le disque HDD du WD MyCloud (en faisant attention à ne pa
 - `sda3` : root (Debian 12) → 30 Go
 - `sda4` : grosse partition data → ~3,5 To (anciennement `sda2` de 3,6 To)
 
-<img width="1230" height="421" alt="wdmc_infosys" src="https://github.com/user-attachments/assets/020e1179-30a6-4f8d-916e-2bf6510ec861" />
+<img width="1230" height="421" alt="wdmc_infosys" src="https://github.com/user-attachments/assets/897726eb-79b5-4069-8616-eb75003a3b62" />
+
 
 
 Cette reconfiguration a permis de rapprocher la partition root (`sda3`) et de résoudre le problème de boot.
