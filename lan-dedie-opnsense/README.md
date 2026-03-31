@@ -20,7 +20,7 @@ Créer un réseau virtuel isolé et sécurisé pour mon homelab afin de tester d
 
 ### Schéma du réseau
 
-<img width="965" height="778" alt="schema_reseau" src="https://github.com/user-attachments/assets/601c5626-55d0-4094-9877-bd9ee824d4e7" />
+<img width="965" height="778" alt="schema_reseau" src="https://github.com/user-attachments/assets/1d636b58-b621-40fc-85dc-1b013c93cde1" />
 
 ### Règles de firewall mises en place
 
@@ -29,15 +29,17 @@ J’ai configuré des règles firewall **différenciées** selon les besoins de 
 - **Ubuntu Server Permissive** :
   - Règles plus ouvertes (accès à certains services, ports autorisés, utilisation d'alias)
   - Trafic sortant généralement autorisé
-<img width="2355" height="622" alt="opn_rules_perm" src="https://github.com/user-attachments/assets/50efe2b5-89d1-4286-ba10-b73037cca8b8" />
+<img width="2355" height="622" alt="opn_rules_perm" src="https://github.com/user-attachments/assets/ba89f9b4-7960-4672-8c68-9e6771740eb8" />
+
 
 
 - **Ubuntu Server Restrictive** :
   - Règles très strictes (principe du moindre privilège)
   - Seuls les ports et protocoles nécessaires sont autorisés
   - Trafic sortant limité
-     <img width="2352" height="1008" alt="opn_rules_rest" src="https://github.com/user-attachments/assets/7483d9b6-e063-4785-bf6e-46d832dfbc09" />
-<img width="1275" height="706" alt="opnsense_alias" src="https://github.com/user-attachments/assets/8f3327d8-4149-4927-8cd1-e5b78bce77e1" />
+<img width="2352" height="1008" alt="opn_rules_rest" src="https://github.com/user-attachments/assets/d7852b8e-d21b-4d77-ae9c-7a38fbdac9d7" />
+<img width="1275" height="706" alt="opnsense_alias" src="https://github.com/user-attachments/assets/5aad279d-0773-4ae4-b9b0-a63e8df9d9eb" />
+
 
 
 **Fonctionnalités OPNsense utilisées** :
@@ -48,7 +50,8 @@ J’ai configuré des règles firewall **différenciées** selon les besoins de 
 
 ### Onglet "Overview" sur le webGUI de OPNsense
 
-<img width="2871" height="1737" alt="opnsense_overview" src="https://github.com/user-attachments/assets/f1765b3a-6350-4754-87e3-ede7fd0343ec" />
+<img width="2871" height="1737" alt="opnsense_overview" src="https://github.com/user-attachments/assets/82d3800b-552e-472a-bf57-0497b7ed6879" />
+
 
 
 ### Sécurité sur le WD MyCloud Gen2 (machine physique)
